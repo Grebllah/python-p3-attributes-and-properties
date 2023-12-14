@@ -35,15 +35,3 @@ class Dog:
 
     name = property(get_name, set_name)
     breed = property(get_breed, set_breed)
-
-
-# 1. Define a `name` property for your `Dog` class. The name must be of type `str`
-# and between 1 and 25 characters. Your `__init__` method should receive a default
-# argument for `name`.
-#     - If the name is invalid, the setter method should `print()` "Name must be
-# string between 1 and 25 characters."
-# 2. Define a `breed` property for your `Dog` class. Your `__init__` method should
-#    receive a default argument for `breed`.
-#     - If the breed is invalid, the setter method should `print()` "Breed must be
-# in list of approved breeds." The breed must be in the following list of dog
-# breeds:
